@@ -169,19 +169,19 @@ class InvestorDashboard extends StatelessWidget {
                         child: const Icon(Icons.trending_up, size: 32),
                       ),
                       const SizedBox(width: 16),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            const Text(
+                            Text(
                               'Crudelis apto solus vitae currus.',
                               style: TextStyle(
                                 fontSize: 14,
                                 color: Colors.grey,
                               ),
                             ),
-                            const SizedBox(height: 8),
-                            const Row(
+                            SizedBox(height: 8),
+                            Row(
                               children: [
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
